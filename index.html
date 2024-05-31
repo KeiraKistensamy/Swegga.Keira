@@ -7,4 +7,91 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
+
     <title>SWEEGA</title>
+
+    </head>
+    <body>
+      <div id="page">
+        
+    <div>
+      <div>
+        <img id="sidebar" src="https://keirakistensamy.github.io/allimages/images/swegga.jpg" alt="" loading="lazy">
+      </div>
+    <div class="container-fluid">
+      <div>
+        <img id="banner" src="https://keirakistensamy.github.io/allimages/images/delivery.gif" alt="" loading="lazy">
+      </div>
+    
+      <div>
+        <img src="https://keirakistensamy.github.io/allimages/images/links.gif" alt="navBar" usemap="#navMap">
+       
+        <div id="navigation">
+          <map name="navMap">
+              <area shape="rect" coords="10,5,93,35" href="order.html" alt="home" target = "_blank" >
+              <area shape="rect" coords="105,5,190,35" href="services.html" alt="Services" target="_blank">
+              <area shape="rect" coords="205,5,300,35" href="products.html" alt="products" target="_blank">
+              <area shape="rect" coords="310,5,440,35" href="orderStatus.html" alt="orderStatus" target="_blank">
+              <area shape="rect" coords="450,5,555,35" href="contactUs.html" alt="contactUs" target="_blank">
+          </map>
+      </div>
+      </div>
+      <div class="text-center capt">
+      <caption ><p id="caption">Product Summary</p></caption>
+    </div>
+    
+      <div class="row">
+        <div class="col-2">Description</div>
+        <div class="col-2">Size</div>
+        <div class="col-2">Colour</div>
+        <div class="col-2" id="PriceMark">Price</div>
+        <div class="col-2">Quantity</div>
+        <div class="col-2">Total</div>
+      
+        <div class="col-2">Female Ski Jackets</div>
+        <select class="col-2" name="colour" id="colour">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+        <select class="col-2" name="colour" id="colour">
+          <option value="Red">Red</option>
+          <option value="Pink">Pink</option>
+          <option value="Black">Black</option>
+        </select>
+        <div class="col-2 text-center pt-2">150.95</div>
+       <input class="quantity col-2 text-center" type="number" min="0" placeholder="0">
+        <div class="col-2 output text-center"></div>
+      
+        
+        
+        <div class="col-2">Male Ski Jackets</div>
+        <select class="col-2" name="colour" id="colour">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+        <select class="col-2" name="colour" id="colour">
+          <option value="Red">Red</option>
+          <option value="Blue">Blue</option>
+          <option value="White">White</option>
+        </select>
+        <div class="col-2 text-center pt-2">180.95</div>
+        <input class="quantity1 col-2 text-center" type="number" min="0" placeholder="0">
+        <div class="col-2 output2 text-center" ></div>
+      
+        <div class="col-8">Click to confirm and process your order:</div>
+        <div class="col-2 p-2 text-center"><button onclick="calculate()" class="button" >Total Price</button></div>
+        <div class="col-2 text-center grandtotal"></div>
+    
+        <footer class="col-12"><p class="copyright">&copy; 2020 Swegga Fashion -Keira Kistensamy</p></footer>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    </body>
+    <script src="Script/code.js"></script>
+    </html>
+
+
